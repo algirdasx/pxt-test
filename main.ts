@@ -5,8 +5,14 @@
 namespace test {
 
     //% block
-    export function showNumber(v: number, interval: number = 150): void
-    { }
+    export function fixIndex(v: number): number
+    {
+
+
+        v = v*2;
+
+        return v;
+     }
 
 
 }
